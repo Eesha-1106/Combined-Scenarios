@@ -1,6 +1,6 @@
 # Combined-Scenarios
-## Name : RITHIKA R
-## Reg. no: 212224240136
+## Name : Eesha Ranka
+## Reg. no: 212224240040
 ## AIM:
 # 1.Solution Ideation
 Use a known UX problem (e.g., booking an appointment in a hospital app).
@@ -39,147 +39,77 @@ Task:
 Task:
 1.Perform card sorting (open or closed).
 2.Create a site map showing categorized structure.
-## Scenario 1: Designing a Mobile Health App for Diabetic Patients
-1️ Identifying & Writing Problem Statements
-User Pain Points Identified:
-Users forget to log health data consistently.
-The app UI is confusing or overly technical.
-No personalized health insights or reminders.
 
-Problem Statement 1:
-“Busy diabetic patients need a way to consistently track their health metrics because current apps are cluttered and hard to use, which results in irregular data logging and poor health management.”
-
-Problem Statement 2:
-“Middle-aged users with diabetes need a way to receive timely health reminders because they often forget due to busy schedules, which results in missed medication and health risks.”
-
-2️ Identifying Appropriate Research Methods
-Recommended Research Methods:
-In-depth Interviews: Understand users’ emotional and lifestyle challenges.
-Diary Studies: Observe real-world behavior over 7–14 days.
-Usability Testing: Test ease of logging data and understanding graphs.
-Justification: These methods help uncover:
-How often users forget or skip logging.
-Whether app design supports their routine.
-Emotional and real-life frustrations of managing a chronic condition.
-
-# Creating Personas
+## 1. Solution Ideation
 ```
- Persona 1: Rajesh Mehta
-Age: 45
-Occupation: IT Manager
-Location: Bengaluru
-Goals: Stay healthy while managing a high-stress job
-Behaviors: Tech-savvy, but forgets logging due to workload
-Pain Points: Too many steps to log data, no easy reminder system
-Motivations: Stay healthy for his family and reduce hospital visits
-persona 2: Anjali Deshmukh
-Age: 60
-Occupation: Retired Teacher
-Location: Pune
-Goals: Monitor diabetes independently
-Behaviors: Uses phone for basic tasks only
-Pain Points: Confusing medical terms and charts
-Motivations: Wants independence and fewer hospital visits
+Method: Crazy 8s (quickly sketch 8 ideas in 8 minutes)
+Problem: Booking an appointment in a hospital app
+Low-fidelity Ideas (Sketch concepts):
+1.	Quick Book Tile Grid: Grid of doctors/specialties with 1-tap booking.
+2.	Voice Assistant Booking: User speaks "Book a cardiologist for tomorrow" to initiate.
+3.	Smart Chatbot: Conversational AI flow to ask symptoms and suggest doctors/time.
+4.	Swipe to Book: Tinder-like UI for appointment slots based on preference.
+5.	Symptom Checker Integration: Input symptoms → suggested departments → instant booking.
+6.	Calendar Overlay: Select date → available doctors/specialties appear as options.
+7.	Location-Based Suggestions: Nearby hospital/clinic with open slots shown first.
+8.	Emergency Mode: Red button that bypasses booking, calls the nearest hospital.
 ```
-# Scenario 2: Redesigning a Government Portal (e.g., Utility Services or Tax Filing)
- Identifying & Writing Problem Statements
-User Pain Points Identified:
-Hard to navigate government websites
-Legal terms confuse normal users
-Senior citizens struggle with digital interfaces
-Problem Statement 1:
-“Citizens need a way to easily navigate government portals because current websites are cluttered and filled with jargon, which results in user frustration and dependence on agents.”
-Problem Statement 2:
-“Senior citizens need a simple interface to access utility services because they lack digital skills, which results in them being unable to complete tasks independently.”
+________________________________________
 
- Identifying Appropriate Research Methods
-Recommended Methods:
-Surveys: Collect feedback on which services users struggle with most
-Card Sorting: Test how users expect information to be organized
-Contextual Inquiry: Watch users interact with the current portal
-Justification: These methods help:
-Understand user priorities and frustrations
-Organize services in a way that feels natural to users
-Identify steps where users get stuck or abandon the process
- # Creating Personas
- ```
- Persona 1: Priya Nair
-Age: 34
-Occupation: Small Business Owner
-Location: Kochi
-Goals: File GST returns and download bills without hiring agents
-Behaviors: Uses laptop for business; prefers quick online tasks
-Pain Points: Hard to find forms, unclear steps
-Motivations: Save time and avoid extra costs
- Persona 2: Vinod Kumar
-Age: 67
-Occupation: Retired Govt. Employee
-Location: Delhi
-Goals: Check pension status and download electricity bills
-Behaviors: Depends on others for online services
-Pain Points: Small text, too many links, no guidance
-Motivations: Wants independence in managing digital tasks
+## 2. Creating User Stories
 ```
- ## Solution Ideation
-Task: Hospital Appointment Booking UX Problem
-Method: Crazy 8s (Ideation Exercise)
-Generate 8 quick sketches for booking screens:
-Simple calendar with time slots
-Doctor list with availability filters
-One-click emergency booking
-Auto-fill patient data
-Confirm by voice command
-Personalized doctor suggestions
-Reminder integration with calendar
-Feedback after appointment
-Low-Fidelity Ideas: Draw wireframes for top 3 ideas: calendar view, doctor availability page, and confirmation page.
-
- ## Creating User Stories
-As a diabetic user, I want to get medication reminders, so that I never miss a dose.
-As a senior citizen, I want larger fonts on utility sites, so that I can read content easily.
-As a small business owner, I want to download bills quickly, so that I can manage finances better.
-As a patient, I want to book hospital appointments in 3 steps, so that I save time.
-As a retiree, I want to check my pension status easily, so that I stay informed.
-
-## Creating Scenarios
-Scenario Based on User Story 1:
-User: Rajesh Mehta (45, IT Manager)
-Environment: At office desk during lunch break
-Task: Wants to quickly log his blood sugar level Emotional State: Mildly stressed, in a hurry Narrative: Rajesh opens the app, sees a cluttered interface, and gets confused. He skips logging, saying “I’ll do it later,” which never happens.
-
-## Task: Booking a doctor appointment via app
+Personas Used:
+•	Priya, 29, working professional, wants to book appointments fast.
+•	Ravi, 56, less tech-savvy, prefers simple interfaces.
+•	Amit, 19, student, looks for affordable/free clinics.
+•	Farah, 40, caregiver booking for her elderly parents.
+•	Neha, 35, has anxiety and prefers fewer steps.
+User Stories:
+1.	As a busy professional, I want to book a doctor in under 2 minutes, so that I don’t miss work.
+2.	As a senior user, I want to see large, clear buttons, so that I don’t get confused.
+3.	As a student, I want to filter by low-cost clinics, so that I can stay within budget.
+4.	As a caregiver, I want to book on behalf of someone else, so that my parents can get timely care.
+5.	As a user with anxiety, I want to avoid calling or talking, so that I feel comfortable booking appointments.
 ```
-          Flow Diagram Symbols:
- Start: Open App
- Action: Login or Skip
- Decision: Book Now or Browse Doctors
- Action: Choose Specialty
- Action: Select Doctor
- Action: Pick Time Slot
- Decision: Confirm or Cancel
- Action: Show Confirmation Screen
- End: Exit or Return to Home
-Information Architecture (IA)
-Example App: University Website
-Card Sorting (Open): Participants categorized these:
-Admissions, Courses, About, Contact, Events, News, Library
-```
+________________________________________
 
-## Resulting Site Map:
+## 3. Creating Scenarios
 ```
+Selected User Story:
+As a caregiver, I want to book on behalf of someone else, so that my parents can get timely care.
+Scenario Narrative:
+Farah, 40, is at home on a Sunday morning. Her father, who has diabetes, complains of blurry vision. Farah opens the hospital app on her tablet, looking worried but calm. She needs to find an eye specialist quickly. She selects “Book for Parent” mode and enters her father’s name. She sees available slots and filters by morning times. With relief, she finds a 10:30 AM slot at a nearby clinic and confirms the booking. Her emotional state transitions from anxious to reassured as the app sends a confirmation SMS to both her and her father.
+```
+_______________________________________
+
+## 4. Flow Diagrams / Flow Mapping
+
+<img width="92" alt="image" src="https://github.com/user-attachments/assets/e4ad3c56-2359-4aa2-9373-a4280442349c" />
+
+## 5. Information Architecture (IA)
+```
+Example: University Website
+Card Sorting Activity (Open Sort Sample Results):
+•	Participants grouped items like:
+o	Admissions, Programs, Scholarships → Admissions
+o	Faculty, Departments, Research → Academics
+o	News, Events, Student Life → Campus Life
+Resulting Site Map:
 Home
-About
-Admissions
-     Undergraduate
-     Postgraduate
-Courses
-     Engineering
-     Science
-     Arts
-Events
-News
-Library
-Contact Us
+├── Admissions
+│   ├── Undergraduate
+│   ├── Graduate
+│   └── Scholarships
+├── Academics
+│   ├── Departments
+│   ├── Faculty
+│   └── Research
+├── Campus Life
+│   ├── Student Housing
+│   ├── Clubs & Activities
+│   └── Events
+├── News
+├── Contact Us
 ```
 ## Conclusion:
 This report outlines real-world UX challenges and practical solutions for:
